@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de Repetição</title>
+
+    <script>
+        let contador = 1
+        const qtd = Number(prompt('Quantas notas?'))
+        let soma = 0
+        let nota = 0
+
+        while(contador <= qtd){
+            nota = Number(prompt('Digite a nota ' +contador))
+            soma = soma + nota
+            /*contador = contador + 1 ou também pode ser*/
+            contador++
+        }
+
+        console.log('Soma: ' + soma)
+        console.log('Nota: ' + nota)
+        console.log('Média: ' + soma/qtd)
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
