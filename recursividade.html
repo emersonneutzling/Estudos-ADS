@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <script>
+        // fatorial de 5 = 5! que é o mesmo que 
+        // 5 * 4 * 3 * 2 * 1
+
+        function fatorial(x){
+            if (x < 1) {
+               return 1 
+            }else{
+                return x * fatorial(x-1)
+            }
+        }
+
+        console.log(fatorial(5));
+    </script>
+</head>
+
+<body>
+    
+</body>
+</html>
